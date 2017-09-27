@@ -1,0 +1,49 @@
+.jumbotron {
+	background: url("../img/naturebackground.jpg") no-repeat center center;
+  }
+
+img {
+    height:250px;
+    width:100%;
+}
+
+body {
+	margin: 10px;
+}
+
+img.chicken {
+	margin: auto 0;
+	height: 250px;
+  width: 50%;
+}
+
+.hidden-penguin, .hidden-spider, .hidden-squirrel {
+	display: none;
+}
+
+.clickable-spider {
+	cursor: pointer;
+	color: #0088cc;
+}
+
+.clickable-penguin {
+	cursor: pointer;
+	color: #0088cc;
+}
+
+.clickable-squirrel {
+	cursor: pointer;
+	color: #0088cc;
+}
+
+.clickable-spider:hover {
+	text-decoration: underline;
+}
+
+.clickable-penguin:hover {
+	text-decoration: underline;
+}
+
+.clickable-squirrel:hover {
+	text-decoration: underline;
+}
